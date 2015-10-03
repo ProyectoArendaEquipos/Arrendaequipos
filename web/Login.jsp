@@ -12,6 +12,7 @@
         // Utilizarlo para obtener parametros de la URL TEST.
         /* String Redirect = response.encodeRedirectURL(request.getContextPath()
          + "/Login.jsp");
+        
          String Parameter = request.getParameter("Update");
          Session.setAttribute("TimeCount", "Cero");
          String TimeUpdate = (String)Session.getAttribute("TimeCount");
