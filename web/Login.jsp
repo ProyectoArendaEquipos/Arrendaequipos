@@ -9,7 +9,7 @@
         HttpSession Session = request.getSession();
         String Error = (String) Session.getAttribute("ErrorLogin");
 
-        // Utilizarlo para obtener parametros de la URL.
+        // Utilizarlo para obtener parametros de la URL TEST.
         /* String Redirect = response.encodeRedirectURL(request.getContextPath()
          + "/Login.jsp");
          String Parameter = request.getParameter("Update");
@@ -57,6 +57,8 @@
         </script>
     </head>
 
+    
+    
     <body onload="UpdatePage()">
    
         <div class="container">
